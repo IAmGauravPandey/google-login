@@ -1,0 +1,16 @@
+{% extends "myapp/layout.html" %}
+
+
+{% block content %}
+  <h2>Login</h2>
+  <form method="post" class="login-form">
+    <label>Email<hr><input type="email"></label><br>
+    <label>Password<hr><input type="Password"></label><br>
+    <br><button type="submit" class="login btn btn-default disabled">Login</button>
+  </form>
+   <br><hr><hr>
+  <p><strong>-- OR --</strong></p>
+  <a href="{% url 'social:begin' 'google-oauth2' %}">Login with Google</a><br>
+  <p><strong>-- OR --</strong></p>
+  <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
+{% endblock %}
