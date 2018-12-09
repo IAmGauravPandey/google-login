@@ -1,0 +1,2 @@
+Client_id='1070971803593-4685aho2qlvi5v6n9cb6tjauiosohsur.apps.googleusercontent.com'
+Secret_key='s5zo23VoK5SbPoGR2c_YxqV9'
