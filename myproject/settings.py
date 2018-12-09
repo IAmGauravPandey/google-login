@@ -67,8 +67,8 @@ LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL='home'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='1070971803593-4685aho2qlvi5v6n9cb6tjauiosohsur.apps.googleusercontent.com'  #Paste CLient Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 's5zo23VoK5SbPoGR2c_YxqV9' #Paste Secret Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY =''  #Paste CLient Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' #Paste Secret Key
 
 TEMPLATES = [
     {
